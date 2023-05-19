@@ -1,0 +1,44 @@
+body{
+    background-color: #eee;
+}
+form{
+    margin: 40px auto;
+    max-width: 200px;
+    padding: 10px;
+    background: white;
+}
+
+button{
+    background-color: rgba(128, 0, 128, 0.778);
+    font-weight: bolder;
+    color: #eee;
+    border: 2px solid black;
+}
+
+input, button{
+    justify-content: left;
+    margin-top: 5px;
+    display: block;
+}
+input:focus, button:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+.dados{
+    color: darkgreen;
+    text-align: left;
+}
+.fracasso{
+    color: red;
+    text-align: left;
+}
+/*centralizado*/
+.sucesso{
+    border: 2px solid darkgreen;
+    color: darkgreen;
+    text-align: left;
+}
+.error{
+    border: 2px solid darkorange;
+    color: darkorange;
+}
